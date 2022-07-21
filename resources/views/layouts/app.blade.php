@@ -47,6 +47,15 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a href="{{route('siswa.index')}}" class="nav-link" >
+                            Siswa
+                        </a>
+                        <li class="nav-item">
+                            <a href="{{route('barang.index')}}" class="nav-link" >
+                            Pembelian
+                        </a>
+                        </li>
 
                     </ul>
 
